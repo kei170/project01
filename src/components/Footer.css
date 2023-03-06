@@ -1,0 +1,31 @@
+.boxInfo{
+   width: 800px;
+   margin: 0 auto;
+   margin-bottom: 10px;
+}
+.boxInfo>ul{
+   display: flex;
+   flex-wrap: wrap;
+}
+.boxInfo>ul>li{
+   padding: 0 20px;
+}
+
+.boxServe{
+   width: 500px;
+   margin: 0 auto;
+   margin-bottom: 10px;
+}
+.boxServe>ul{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+.boxServe>ul>li{
+   padding: 0 10px;
+}
+
+
+.boxCopy{
+   text-align: center; 
+}

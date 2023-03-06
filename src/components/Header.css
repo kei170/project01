@@ -1,0 +1,18 @@
+.cat{
+   width: 800px;
+   margin: 0 auto;
+   display: flex;
+   flex-wrap: wrap;
+}
+.cat>li{
+   padding: 0 10px;
+   font-size: 20px;
+   margin-bottom: 20px;
+   border-radius: 5px;
+}
+.cat>li:hover{
+   background-color: red;
+   color: #000;
+   cursor: pointer;
+   transition: all 1s; 
+}

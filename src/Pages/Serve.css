@@ -1,0 +1,33 @@
+.text02>h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+.text02 p{
+    font-size: 12px;
+}
+
+.icon-link {
+   width: 600px;
+   margin: 0 auto;
+   margin-bottom: 30px; 
+   padding-top: 10px;
+}
+.icon-link>ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.icon-link>ul>li {
+    padding: 0 10px;
+}
+.icon-link>ul>li>a {
+    width: 100px;
+    padding: 10px;
+    border: 1px solid #000;
+    background-color: seashell;
+}
+.icon-link>ul>li>a:hover {
+    background-color: aquamarine;
+    color: burlywood;
+}

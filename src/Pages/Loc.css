@@ -1,0 +1,25 @@
+.boxLoc {
+   width: 1200px;
+   margin: 0 auto;
+   /* display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between; */
+}
+.boxLoc>img {
+   width: 50%;
+}
+.boxLoc label{
+   margin: 0 auto;
+   margin-left: 20px;
+}
+.boxLoc input{
+     width: 200px;
+     margin: 0 auto;
+     margin-left: 10px;
+     /* display: flex;
+     flex-wrap: wrap;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center; */
+}
+

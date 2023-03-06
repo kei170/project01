@@ -1,0 +1,16 @@
+.coth {
+    width: 200px;
+    padding: 10px;
+    margin: 0 auto;
+    font-weight: bold;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2e8b57;
+    box-sizing: border-box;
+    transition: all 1s;
+}
+.coth:hover{
+    background-color: skyblue;
+    color: blue;
+}

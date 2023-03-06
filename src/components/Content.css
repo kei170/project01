@@ -1,0 +1,82 @@
+.boxPic{
+    width: 1200px;
+    margin: 0 auto;
+}
+.boxPic>img{
+    width: 100%;
+}
+
+h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+.info{
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto 20px;
+}
+.info>li{
+    padding: 0 20px;
+}
+.info>li:hover{
+    background-color: red;
+    color: #000;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: all 1s;   
+}
+
+.boxCart{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.boxCart>figure{
+    width: calc(25% - 1em);
+    margin: 0 0 1em;
+    padding: 10px;
+    border: 3px solid #ddd;
+    box-sizing: border-box;
+    text-align: center;
+}
+.boxCart>figure>img{
+    width: 100%;
+}
+
+h3{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+p{
+    font-size: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.boxMagazine{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.boxMagazine>figure{
+    width: calc(33.33333% - 1em);
+    margin:  0 0 1em;
+    padding: 10px;
+    border: 3px solid #ddd;
+    box-sizing: border-box;
+    text-align: center;
+}
+.boxMagazine>figure>img{
+    width: 100%;
+}
