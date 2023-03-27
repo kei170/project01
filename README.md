@@ -1,70 +1,53 @@
-# Getting Started with Create React App
+# 정지훈 포트폴리오
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 소개
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+H&M 사이트를 모방해서 만든 개인 포트폴리오 사이트입니다.
 
-### `npm start`
+## 배포링크
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 배포방식은 AWS: S3의 간이 배포를 이용하였습니다.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- [바로가기](http://localhost:3000/)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 개발도구 및 환경
 
-### `npm run build`
+- 개발환경:VScode,npm,Parcel-bundler
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- 개발도구:HTML,CSS,javascript,react
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 프로젝트 설명
 
-### `npm run eject`
+### 헤더(Header) & 푸터(Footer)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- 헤더와 푸터는 각페이지의 Html에 삽입하고 js와 css를 공유하여 import하는 방식을 사용하였습니다.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 메인페이지(index.html)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+1. 갤러리 부분은 Json 파일을 import하는 방식을 사용하여서 map메서드를 이용하는 방식을 사용하였습니다.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+2. 상품을 추가 했을때 장바구니에 담기게 하는 것을 redux를 이용하는 방식을 사용하였습니다.
 
-## Learn More
+### 샵페이지 (man.html)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. 데이터 방식은 Json으로 작성하여 불러오는 방식을 이용하였습니다.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+2. pagination을 만들어서 한 페이지에서 데이터를 받아오는 형식
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 자기평가
 
-### Analyzing the Bundle Size
+---
+### 제작후 느낀점 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
 
-### Making a Progressive Web App
+- SPA 를 제작하면서 react 를 사용하였는데 javascript를 사용 하는것보다 효율적으로 사이트 관리 하는데 좋았습니다.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- 상품을 장바구니에 담기게 하는 기능을 구현 하는데 redux를 사용하여서 효율적으로 데이터 관리 하는데 좋았습니다. 
