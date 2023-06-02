@@ -10,7 +10,7 @@ H&M 사이트를 모방해서 만든 개인 포트폴리오 사이트입니다.
 
 - 배포방식은 AWS: S3의 간이 배포를 이용하였습니다.
 
-- [바로가기](http://localhost:3000/)
+- [바로가기](http://jihoon-project-6.s3-website.ap-northeast-2.amazonaws.com)
 
 ---
 
